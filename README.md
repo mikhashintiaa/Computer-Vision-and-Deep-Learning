@@ -1,4 +1,4 @@
-# 🤖 Transfer Learning untuk Klasifikasi Balok pada Arm Robot
+# Transfer Learning - Klasifikasi Balok 
 
 <p align="center">
   <b>Perbandingan ResNet50, ResNet18, dan MobileNetV3-Small untuk klasifikasi objek balok pada sistem Pick and Place</b>
