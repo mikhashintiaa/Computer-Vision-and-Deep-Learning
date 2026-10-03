@@ -374,11 +374,13 @@ Grafik menunjukkan bahwa penggunaan pretrained ImageNet memberikan keuntungan ya
 | ResNet50 | Partial | 100.00% | 2 | 2 | 231.06 s | 90.91% |
 | ResNet50 | Scratch | 100.00% | 5 | 3 | 439.40 s | 100.00% |
 
+
 | Arsitektur | Mode | Best Val Acc | Best Epoch | Epoch ≥90% | Training Time | Test Acc |
 |---|---|---:|---:|---|---:|---:|
 | ResNet18 | Feature | 100.00% | 4 | 3 | 80.40 s | 100.00% |
 | ResNet18 | Partial | 100.00% | 2 | 1 | 103.24 s | 100.00% |
 | ResNet18 | Scratch | 95.45% | 8 | 6 | 171.78 s | 100.00% |
+
 
 | Arsitektur | Mode | Best Val Acc | Best Epoch | Epoch ≥90% | Training Time | Test Acc |
 |---|---|---:|---:|---|---:|---:|
