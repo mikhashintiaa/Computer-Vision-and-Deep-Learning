@@ -260,10 +260,10 @@ Mode ini tidak memanfaatkan ImageNet sehingga membutuhkan proses pembelajaran fi
 | Partial | **100.00%** | 2 | 2 | 231.06 s | 90.91% |
 | Scratch | **100.00%** | 5 | 3 | 439.40 s | **100.00%** |
 
-## Grafik Validation Accuracy
+## Grafik Validation Accuracy ResNet50
 
 <p align="center">
-  <img src="hasil/grafik_val_accuracy.png" width="760">
+  <img src="hasil/grafik_val_accuracy_resnet50.png" width="760">
 </p>
 
 ## Confusion Matrix ResNet50
@@ -292,7 +292,7 @@ Untuk implementasi ResNet50 pada eksperimen ini, **feature extraction dipilih se
 | Partial | **100.00%** | 2 | **1** | 103.24 s | **100.00%** |
 | Scratch | 95.45% | 8 | 6 | 171.78 s | **100.00%** |
 
-## Grafik Validation Accuracy
+## Grafik Validation Accuracy ResNet18
 
 <p align="center">
   <img src="hasil/grafik_val_accuracy_resnet18.png" width="760">
@@ -324,7 +324,7 @@ Dari sisi efisiensi, feature extraction membutuhkan waktu hanya 80,40 detik dan 
 | Partial | **81.82%** | 2 | Tidak tercapai | **26.15 s** | 63.64% |
 | Scratch | 31.82% | 1 | Tidak tercapai | 50.71 s | 36.36% |
 
-## Grafik Validation Accuracy
+## Grafik Validation Accuracy MobileNetV3-Small
 
 <p align="center">
   <img src="hasil/grafik_val_accuracy_mobilenetv3_small.png" width="760">
@@ -348,7 +348,7 @@ Scratch menghasilkan validation accuracy 31,82% dan test accuracy 36,36%. Nilai 
 
 ---
 
-# 📊 Perbandingan Tiga Metode pada Semua Arsitektur
+## Perbandingan Tiga Model Training
 
 <p align="center">
   <img src="hasil/grafik_perbandingan_3_metode.png" width="850">
@@ -373,9 +373,13 @@ Grafik menunjukkan bahwa penggunaan pretrained ImageNet memberikan keuntungan ya
 | ResNet50 | Feature | 100.00% | 5 | 2 | 212.43 s | 100.00% |
 | ResNet50 | Partial | 100.00% | 2 | 2 | 231.06 s | 90.91% |
 | ResNet50 | Scratch | 100.00% | 5 | 3 | 439.40 s | 100.00% |
+
+|---|---|---:|---:|---|---:|---:|
 | ResNet18 | Feature | 100.00% | 4 | 3 | 80.40 s | 100.00% |
 | ResNet18 | Partial | 100.00% | 2 | 1 | 103.24 s | 100.00% |
 | ResNet18 | Scratch | 95.45% | 8 | 6 | 171.78 s | 100.00% |
+
+|---|---|---:|---:|---|---:|---:|
 | MobileNetV3-Small | Feature | 72.73% | 1 | Tidak tercapai | 32.42 s | 81.82% |
 | MobileNetV3-Small | Partial | 81.82% | 2 | Tidak tercapai | 26.15 s | 63.64% |
 | MobileNetV3-Small | Scratch | 31.82% | 1 | Tidak tercapai | 50.71 s | 36.36% |
