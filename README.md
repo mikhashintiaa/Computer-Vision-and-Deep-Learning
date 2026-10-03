@@ -1,1 +1,1 @@
-# Model ResNet-50 Transfer Learning
+# Model Transfer Learning
