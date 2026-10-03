@@ -113,11 +113,12 @@ dataset_balokk/
 │
 ├── metadata.csv
 └── README.md
+
 ---
 
 # 🧠 3 model yang Digunakan
 
-## 1. ResNet50
+# 1. ResNet50
 
 ResNet50 merupakan arsitektur CNN dengan 50 layer yang menggunakan konsep **Residual Connection**.
 
@@ -127,7 +128,7 @@ ResNet50 memiliki jumlah parameter yang relatif besar sehingga memiliki kemampua
 
 ---
 
-## 2. ResNet18
+# 2. ResNet18
 
 ResNet18 menggunakan konsep residual yang sama dengan ResNet50, tetapi memiliki struktur yang lebih ringan.
 
@@ -141,7 +142,7 @@ ResNet18 sangat menarik untuk sistem robot karena dapat memberikan keseimbangan 
 
 ---
 
-## 3. MobileNetV3-Small
+# 3. MobileNetV3-Small
 
 MobileNetV3-Small dirancang khusus untuk perangkat dengan sumber daya terbatas.
 
