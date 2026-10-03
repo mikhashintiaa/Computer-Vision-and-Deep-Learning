@@ -13,10 +13,6 @@
 | **Nama** | Mikha Shintia Sitorus |
 | **NIM** | 4222401060 |
 | **Program Studi** | Teknologi Rekayasa Robotika |
-| **Project** | Arm Robot |
-| **Aplikasi** | Pick and Place |
-| **Topik** | Klasifikasi Citra Balok |
-| **Framework** | PyTorch |
 | **Model** | ResNet50, ResNet18, MobileNetV3-Small |
 | **Jumlah Kelas** | 3 kelas |
 | **Jumlah Dataset** | 110 citra |
