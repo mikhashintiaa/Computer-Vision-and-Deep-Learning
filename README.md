@@ -7,12 +7,6 @@
 ---
 
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Klasifikasi%20Citra-green)
-![Robotics](https://img.shields.io/badge/Robotics-Arm%20Robot-orange)
-![Dataset](https://img.shields.io/badge/Dataset-110%20Citra-purple)
-
 <p align="center">
   <b>Perbandingan ResNet50, ResNet18, dan MobileNetV3-Small untuk Klasifikasi Balok pada Sistem Arm Robot Pick and Place</b>
 </p>
