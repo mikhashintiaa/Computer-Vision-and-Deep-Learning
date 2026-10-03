@@ -1,9 +1,8 @@
 # Balok-Classification-Resnet18,50, Mobilenetv3
 
 
-# 🧱 Transfer Learning untuk Klasifikasi Balok
 
-Project ini merupakan implementasi klasifikasi citra balok menggunakan tiga arsitektur deep learning:
+Tugas ini merupakan implementasi klasifikasi citra balok menggunakan tiga arsitektur deep learning:
 
 - ResNet50
 - ResNet18
@@ -16,7 +15,6 @@ Eksperimen dilakukan menggunakan tiga metode pelatihan:
 - Training from Scratch
 
 Dataset terdiri dari tiga kelas:
-
 - `balok_hijaumuda`
 - `balok_hitam`
 - `balok_merahmuda`
@@ -144,7 +142,7 @@ Latency diuji pada CPU dengan 100 kali inference.
 
 ---
 
-## 📌 Analisis Singkat
+## 📌 Analisis 
 
 ResNet50 dan ResNet18 menunjukkan performa klasifikasi yang sangat baik pada dataset yang digunakan. Keduanya mampu mencapai akurasi test hingga 100% pada beberapa metode training.
 
