@@ -348,6 +348,6 @@ Pengembangan berikutnya dapat dilakukan dengan:
 ---
 
 <p align="center">
-  <b>Arm Robot Pick and Place — Computer Vision & Deep Learning</b><br>
+  <b>Transfer Learning RET503</b><br>
   Mikha Shintia Sitorus — 4222401060
 </p>
