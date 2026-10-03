@@ -272,7 +272,7 @@ ResNet50 menghasilkan accuracy tinggi pada hampir seluruh skenario training. Fea
 
 Model ini memberikan kemampuan klasifikasi yang kuat, tetapi membutuhkan komputasi lebih tinggi dibandingkan dua arsitektur lainnya.
 
-### 1. ResNet18
+### 2. ResNet18
 
 ResNet18 memberikan keseimbangan terbaik antara **accuracy dan efisiensi komputasi**.
 
@@ -286,7 +286,7 @@ Pada mode feature:
 
 ResNet18 mempertahankan accuracy ResNet50, tetapi memiliki inference yang jauh lebih cepat.
 
-### 1. MobileNetV3-Small
+### 3. MobileNetV3-Small
 
 MobileNetV3-Small merupakan model paling ringan dan cepat.
 
