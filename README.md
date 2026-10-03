@@ -166,6 +166,14 @@ ColorJitter(
 | Partial | **81.82%** | 2 | Tidak tercapai | **26.15 s** | 63.64% |
 | Scratch | 31.82% | 1 | Tidak tercapai | 50.71 s | 36.36% |
 
+### Ringkasan Hasil Training dan Evaluasi
+
+Secara keseluruhan, **ResNet50 dan ResNet18 menunjukkan performa paling stabil**, terutama pada mode feature dan partial yang sama-sama mampu mencapai validation accuracy 100%. ResNet18 membutuhkan waktu training yang lebih singkat dibanding ResNet50, sehingga lebih efisien untuk dataset ini.
+
+Sementara itu, **MobileNetV3-Small memiliki waktu training paling cepat**, tetapi akurasinya masih lebih rendah dibandingkan kedua model ResNet. Mode feature menjadi konfigurasi terbaik MobileNetV3-Small dengan test accuracy 81,82%, sedangkan mode scratch memberikan hasil paling rendah.
+
+Hasil ini menunjukkan bahwa penggunaan **pretrained ImageNet** sangat membantu pada dataset kecil, sedangkan training from scratch cenderung lebih tidak stabil dan membutuhkan lebih banyak data agar dapat melakukan generalisasi dengan baik.
+
 ---
 
 # 📈 Validation Accuracy
