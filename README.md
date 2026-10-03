@@ -266,13 +266,13 @@ Pengukuran latency dilakukan menggunakan:
 
 # 🔍 Analisis
 
-### ResNet50
+### 1. ResNet50
 
 ResNet50 menghasilkan accuracy tinggi pada hampir seluruh skenario training. Feature extraction mencapai **100% validation dan 100% test accuracy**, tetapi memiliki latency paling besar yaitu **233,76 ms**.
 
 Model ini memberikan kemampuan klasifikasi yang kuat, tetapi membutuhkan komputasi lebih tinggi dibandingkan dua arsitektur lainnya.
 
-### ResNet18
+### 1. ResNet18
 
 ResNet18 memberikan keseimbangan terbaik antara **accuracy dan efisiensi komputasi**.
 
@@ -286,7 +286,7 @@ Pada mode feature:
 
 ResNet18 mempertahankan accuracy ResNet50, tetapi memiliki inference yang jauh lebih cepat.
 
-### MobileNetV3-Small
+### 1. MobileNetV3-Small
 
 MobileNetV3-Small merupakan model paling ringan dan cepat.
 
