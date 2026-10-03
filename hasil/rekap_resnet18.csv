@@ -1,0 +1,4 @@
+Mode,Best Val Accuracy (%),Best Epoch,Epoch Pertama >= 90%,Waktu Training (detik),Test Accuracy (%)
+Feature,100.0,4,3,80.4,100.0
+Partial,100.0,2,1,103.24,100.0
+Scratch,95.45,8,6,171.78,100.0
