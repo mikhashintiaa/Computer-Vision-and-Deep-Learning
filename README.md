@@ -1,1 +1,1 @@
-# Balok-classification-resnet18,50, mobilenet
+# Balok-Classification-Resnet18,50, Mobilenetv3
