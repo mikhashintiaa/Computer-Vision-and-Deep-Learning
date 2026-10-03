@@ -374,11 +374,13 @@ Grafik menunjukkan bahwa penggunaan pretrained ImageNet memberikan keuntungan ya
 | ResNet50 | Partial | 100.00% | 2 | 2 | 231.06 s | 90.91% |
 | ResNet50 | Scratch | 100.00% | 5 | 3 | 439.40 s | 100.00% |
 
+| Arsitektur | Mode | Best Val Acc | Best Epoch | Epoch ≥90% | Training Time | Test Acc |
 |---|---|---:|---:|---|---:|---:|
 | ResNet18 | Feature | 100.00% | 4 | 3 | 80.40 s | 100.00% |
 | ResNet18 | Partial | 100.00% | 2 | 1 | 103.24 s | 100.00% |
 | ResNet18 | Scratch | 95.45% | 8 | 6 | 171.78 s | 100.00% |
 
+| Arsitektur | Mode | Best Val Acc | Best Epoch | Epoch ≥90% | Training Time | Test Acc |
 |---|---|---:|---:|---|---:|---:|
 | MobileNetV3-Small | Feature | 72.73% | 1 | Tidak tercapai | 32.42 s | 81.82% |
 | MobileNetV3-Small | Partial | 81.82% | 2 | Tidak tercapai | 26.15 s | 63.64% |
@@ -463,101 +465,6 @@ Beberapa temuan utama:
 Untuk sistem **Arm Robot Pick and Place** pada eksperimen ini, **ResNet18 Feature Extraction** merupakan kandidat yang sangat kuat karena mempertahankan test accuracy 100% dengan latency CPU yang jauh lebih rendah daripada ResNet50.
 
 MobileNetV3-Small tetap menarik jika kebutuhan utama sistem adalah kecepatan inferensi dan keterbatasan perangkat keras.
-
----
-
-# ▶️ Cara Menjalankan Project
-
-## 1. Aktifkan Virtual Environment
-
-Windows PowerShell:
-
-```powershell
-..\.venv\Scripts\Activate.ps1
-```
-
----
-
-## 2. Install Dependency
-
-```powershell
-pip install torch torchvision pandas matplotlib scikit-learn pillow
-```
-
----
-
-## 3. Split Dataset
-
-```powershell
-python split_dataset.py
-```
-
----
-
-## 4. Cek Dataset
-
-```powershell
-python cek_dataset.py
-```
-
----
-
-## 5. Training Model
-
-Contoh:
-
-```powershell
-python train_resnet50.py
-python train_resnet18.py
-python train_mobilenetv3_feature.py
-```
-
-Mode pada masing-masing script dapat diatur menjadi:
-
-```python
-MODE = "feature"
-MODE = "partial"
-MODE = "scratch"
-```
-
----
-
-## 6. Test Model
-
-```powershell
-python test_resnet50.py
-python test_resnet18.py
-python test_mobilenetv3.py
-```
-
----
-
-## 7. Latency
-
-```powershell
-python latency_resnet50.py
-python latency_resnet18.py
-python latency_mobilenetv3.py
-```
-
----
-
-## 8. Grafik
-
-```powershell
-python grafik_hasil.py
-python grafik_resnet18.py
-python grafik_mobilenetv3.py
-python grafik_perbandingan_3_metode.py
-```
-
----
-
-## 9. Confusion Matrix
-
-```powershell
-python confusion_matrix_models.py
-```
 
 ---
 
