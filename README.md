@@ -77,6 +77,43 @@ Secara umum, project ini bertujuan untuk:
 
 ---
 
+## 🗂️ Struktur Folder
+
+```text
+arm-robot-block-classification/
+│
+├── dataset_raw/
+│   ├── balok_hijaumuda/
+│   ├── balok_hitam/
+│   └── balok_merahmuda/
+│
+├── train/
+├── val/
+├── test/
+│
+├── hasil/
+│   ├── grafik_val_accuracy.png
+│   ├── grafik_val_accuracy_resnet18.png
+│   ├── grafik_val_accuracy_mobilenetv3_small.png
+│   ├── grafik_perbandingan_3_metode.png
+│   ├── confusion_matrix_resnet50.png
+│   ├── confusion_matrix_resnet18.png
+│   └── confusion_matrix_mobilenetv3_small.png
+│
+├── train_resnet50.py
+├── train_resnet18.py
+├── train_mobilenetv3_feature.py
+├── test_resnet50.py
+├── test_resnet18.py
+├── test_mobilenetv3.py
+├── latency_resnet50.py
+├── latency_resnet18.py
+├── latency_mobilenetv3.py
+├── metadata.csv
+└── README.md
+
+
+
 # 🧠 Arsitektur yang Digunakan
 
 ## 1. ResNet50
