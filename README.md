@@ -302,6 +302,12 @@ Mode scratch hanya menghasilkan **31,82% validation accuracy**, menunjukkan bahw
 | **ResNet18 Feature** | **100.00%** | **100.00%** | **81.69 ms** | **12.24** |
 | MobileNetV3-Small Feature | 72.73% | 81.82% | **20.67 ms** | **48.37** |
 
+**Interpretasi:**  
+ResNet50 dan ResNet18 sama-sama mencapai test accuracy 100%, tetapi ResNet18 memiliki latency yang jauh lebih rendah. MobileNetV3-Small menjadi model tercepat dengan latency hanya 20,67 ms dan sekitar 48,37 FPS, namun akurasinya masih 81,82%. Berdasarkan hasil tersebut, ResNet18 Feature memberikan keseimbangan paling baik antara akurasi dan kecepatan inferensi pada eksperimen ini.
+
+> **Insight utama:**  
+> ResNet50 unggul pada kapasitas model, ResNet18 memberikan keseimbangan terbaik, sedangkan MobileNetV3-Small unggul pada kecepatan inferensi.
+
 ---
 
 # ✅ Kesimpulan
