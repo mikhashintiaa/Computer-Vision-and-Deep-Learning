@@ -159,23 +159,30 @@ MobileNetV3-Small memiliki jumlah parameter jauh lebih sedikit dibandingkan ResN
 
 # 📊 Dataset
 
-Dataset terdiri dari **110 citra** yang dibagi ke dalam tiga kelas.
+The dataset consists of **110 images** divided into three classes.
 
-| Kelas | Jumlah Citra |
+| Class | Number of Images |
 |---|---:|
 | balok_hijaumuda | 37 |
 | balok_hitam | 37 |
 | balok_merahmuda | 36 |
 | **Total** | **110** |
 
-Dataset kemudian dibagi menjadi:
+The dataset was divided into:
 
-| Dataset | Jumlah |
+| Dataset | Images |
 |---|---:|
 | Training | 77 |
 | Validation | 22 |
 | Testing | 11 |
 | **Total** | **110** |
+
+The split corresponds approximately to:
+
+```text
+Training   : 70%
+Validation : 20%
+Testing    : 10%
 
 Pembagian dataset kurang lebih menggunakan proporsi:
 
