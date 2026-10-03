@@ -35,7 +35,7 @@ Model klasifikasi digunakan untuk membedakan tiga jenis balok, yaitu:
 - ⚫ `balok_hitam`
 - 🌸 `balok_merahmuda`
 
-Tiga arsitektur Convolutional Neural Network (CNN) dibandingkan dalam 3 metode:
+Tiga arsitektur Convolutional Neural Network (CNN) dibandingkan dalam 3 model:
 
 1. **ResNet50**
 2. **ResNet18**
@@ -114,7 +114,7 @@ dataset_balokk/
 ├── metadata.csv
 └── README.md
 
-# 🧠 3 metode yang Digunakan
+# 🧠 3 model yang Digunakan
 
 ## 1. ResNet50
 
